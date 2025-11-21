@@ -1,16 +1,26 @@
 .lista-suspensa-form {
     border-radius: 8px;
     background-color: transparent;
-    border: 1px solid #4A4949;  
+    border: 1px solid #4A4949;
     font-weight: 400;
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 120%;
-    color: white; 
-    padding: 8px 16px ;
-    
+    color: white;
+    padding: 8px 16px;
 }
 
+/* Dropdown items uppercase except default */
+.lista-suspensa-form option:not([value=""]) {
+    text-transform: uppercase;
+}
+
+/* Background for items */
 .lista-suspensa-form option {
-    background-color: #1e1e1e; /* dark background */
-    color: white;             /* white text */
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Make selected option uppercase too */
+.lista-suspensa-form option:checked {
+    text-transform: uppercase;
 }
