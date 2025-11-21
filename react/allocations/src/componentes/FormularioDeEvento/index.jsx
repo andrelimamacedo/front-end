@@ -51,7 +51,7 @@ export function FormularioDeEvento( {temas, aoSubmeter}) {
 
         <CampoDeFormulario>
           <label htmlFor="dataEvento">
-            Qual o nome do evento?
+            Qual a data do evento?
           </label>
           <CampoDeEntrada
             type="date"
